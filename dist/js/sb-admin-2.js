@@ -30,7 +30,7 @@ $(function() {
     });
 
     //var url = window.location;
-    var url=location.origin+location.pathname;
+    var url=window.location.origin+window.location.pathname;
     // var element = $('ul.nav a').filter(function() {
     //     return this.href == url;
     // }).addClass('active').parent().parent().addClass('in').parent();
